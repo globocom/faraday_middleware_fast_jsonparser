@@ -41,8 +41,11 @@ end
 
 ## Contributing
 
+Check the contributing guidelines at: [Contributing Guide](CONTRIBUTING.md).
+`make` provide a list of helpful tasks, mainly in the `gem` context, like `make gem/build`
+
 1. Fork it
 2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
+3. Commit your changes (`git commit -am "feature: Add some feature"`)
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create new Pull Request
