@@ -1,3 +1,5 @@
+require "./lib/faraday_middleware_fast_jsonparser/version"
+
 Gem::Specification.new do |gem|
   gem.authors       = ["Joao Vortmann"]
   gem.summary       = %q{FastJsonparser middleware for Faraday}
@@ -9,7 +11,7 @@ Gem::Specification.new do |gem|
   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
   gem.name          = "faraday_middleware_fast_jsonparser"
   gem.require_paths = ["lib"]
-  gem.version       = "1.0.0"
+  gem.version       = FaradayMiddleware::FastJsonparser::VERSION
 
   gem.add_runtime_dependency "faraday"
   gem.add_runtime_dependency "faraday_middleware"

@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require "faraday_middleware/fast_jsonparser"
+require "faraday_middleware_fast_jsonparser"
 require "json"
 
 describe FaradayMiddleware::FastJsonparser do
