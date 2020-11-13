@@ -22,7 +22,7 @@ $ gem install faraday_middleware_fast_jsonparser
 The same as `FaradayMiddleware::ParseJson`:
 
 ``` ruby
-require "faraday_middleware/fast_jsonparser"
+require "faraday_middleware_fast_jsonparser"
 
 Faraday.new do |conn|
   conn.use(FaradayMiddleware::FastJsonparser)
@@ -32,7 +32,7 @@ end
 or
 
 ``` ruby
-require "faraday_middleware/fast_jsonparser"
+require "faraday_middleware_fast_jsonparser"
 
 Faraday.new do |conn|
   conn.use(FaradayMiddleware::FastJsonparser, parser_options: { symbolize_keys: false })
